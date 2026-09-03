@@ -1976,6 +1976,10 @@ void ExpressionEdit::keyPressEvent(QKeyEvent *event) {
 			}
 		}
 	}
+	if(event->modifiers() == Qt::KeypadModifier && (event->key() == Qt::Key_Comma || event->key() == Qt::Key_Period)) {
+		insertPlainText(QString::fromStdString(CALCULATOR->getDecimalPoint()));
+		return;
+	}
 	if(event->key() == Qt::Key_Asterisk && (event->modifiers() == Qt::ControlModifier || event->modifiers() == (Qt::ControlModifier | Qt::KeypadModifier) || event->modifiers() == (Qt::ControlModifier | Qt::ShiftModifier))) {
 		if(settings->rpn_mode && settings->rpn_keys && settings->evalops.parse_options.parsing_mode != PARSING_MODE_RPN) {
 			emit calculateRPNRequest(OPERATION_RAISE);
