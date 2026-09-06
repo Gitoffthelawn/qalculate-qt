@@ -9,12 +9,12 @@
  <name xml:lang="es">Qalculate! (Qt UI)</name>
  <name xml:lang="fr">Qalculate! (Qt UI)</name>
  <name xml:lang="pt_BR">Qalculate! (Qt UI)</name>
- <name xml:lang="pt_PT">Qalculate! (GTK UI)</name>
+ <name xml:lang="pt_PT">Qalculate! (Qt UI)</name>
  <name xml:lang="ru">Qalculate! (Интерфейс Qt)</name>
  <name xml:lang="sl">Qalculate! (vmesnik Qt)</name>
  <name xml:lang="sv">Qalculate! (Qt UI)</name>
  <name xml:lang="zh_CN">Qalculate! (Qt UI)</name>
- <name xml:lang="zh_TW">Qalculate! (GTK UI)</name>
+ <name xml:lang="zh_TW">Qalculate! (Qt UI)</name>
  <summary>Powerful and easy to use calculator</summary>
  <summary xml:lang="ca">Calculadora poderosa i fàcil a usar</summary>
  <summary xml:lang="de">Leistungsstarker und einfach zu bedienender Taschenrechner</summary>
@@ -55,7 +55,7 @@
  <screenshots>
   <screenshot type="default">
    <image>https://raw.githubusercontent.com/Qalculate/qalculate-qt/master/data/io.github.Qalculate.qalculate-qt.png</image>
-   <caption>The main window with keypad visible</caption>
+   <caption>The main window (with keypad hidden)</caption>
   </screenshot>
  </screenshots>
  <url type="homepage">https://qalculate.github.io</url>
